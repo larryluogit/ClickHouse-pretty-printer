@@ -72,7 +72,7 @@ def build_pretty_printers():
     pp.add_printer('ASTSelectQuery', '^DB::ASTSelectQuery$', ASTSelectQueryPrinter)
     pp.add_printer('ASTSelectWithUnionQuery', '^DB::ASTSelectWithUnionQuery$', ASTSelectWithUnionQueryPrinter)
     pp.add_printer('IAST', '^DB::IAST$', IASTPrinter)
-    pp.add_printer('IColumn', '^DB::IColumn$', IColumnPrinter)
+    # pp.add_printer('IColumn', '^DB::IColumn$', IColumnPrinter)
     pp.add_printer('IDataType', '^DB::IDataType$', IDataTypePrinter)
 
     return pp
